@@ -77,11 +77,12 @@ WSGI_APPLICATION = 'ClothingAuthTracker.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Shoe_barcode',
+        'ENGINE': 'mysql',
+        'NAME': 'barcodestore',
         'USER': 'ktsihira',
-        'PASSWORD': '',
-        'HOST': 'ktsihira.mysql.pythonanywhere-services.com',
+        'PASSWORD': 'kebire1992',
+        'HOST': '',
+        'PORT':'',
     }
 }
 
